@@ -1,0 +1,20 @@
+# ????????
+server:
+  # ????????
+  port: 8847
+# Spring???????
+spring:
+  # ????????
+  application:
+    name: yummy-module-demo
+# http://localhost:8847/doc.html
+swagger:
+  basic:
+    enable: true
+    username: admin
+    password: admin
+logging:
+  level:
+    com:
+      baomidou:
+        mybatisplus: INFO
